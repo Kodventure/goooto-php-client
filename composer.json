@@ -1,0 +1,16 @@
+{
+    "name": "kodventure/goooto-php-client",
+    "type": "library",
+    "description": "PHP client for Gooo.to API",
+    "keywords": ["goooto","url-shortener","link-hub","api","client"],
+    "homepage": "https://gooo.to",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hasan Civelek",
+            "email": "hasan@kodventure.com",
+            "homepage": "https://gooo.to/hasan",
+            "role": "Developer"
+        }
+    ],
+}

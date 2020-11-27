@@ -13,4 +13,7 @@
             "role": "Developer"
         }
     ],
+    "autoload": {
+        "psr-4": {"Kodventure\\GoooTo\\": "src/"}
+    }
 }

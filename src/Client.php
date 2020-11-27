@@ -67,12 +67,7 @@ class Client{
 
         curl_close($curl);
 
-        if($httpCode == 200)
-        {
-            if($callback)
-                $callback($result);
-        }
-        else   
+        if($httpCode != 200)
         { 
             $this->error = [
                 "code"=>$httpCode,
@@ -82,6 +77,9 @@ class Client{
             throw new \Exception($this->error['message'], $httpCode);  
         }  
         
+        if($callback)
+            $callback($result);
+
         return $result;
     }
 

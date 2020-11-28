@@ -6,6 +6,7 @@ PHP client for [Gooo.to](https://gooo.to) API
 composer require kodventure/goooto-php-client
 ```
 
+# example
 
 ```php
 <?php

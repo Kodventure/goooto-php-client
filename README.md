@@ -15,7 +15,7 @@ use Kodventure\GoooTo\Client;
 require __DIR__ . '/vendor/autoload.php';
 
 
-$client = new Client("GOOTO API KEY","GOOOTO API SECRET");
+$client = new Client("GOOO.TO API KEY","GOOO.TO API SECRET");
 $data = $client->shorten("https://github.com/Kodventure/goooto-php-client");
 
 print_r($data);

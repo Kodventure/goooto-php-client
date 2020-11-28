@@ -6,7 +6,7 @@ class Client{
 
     protected $api_url  = "https://gooo.to/api";
     protected $client_key, $client_secret;
-    protected $token;
+    public $token;
     protected $error;
     
     public function __construct($client_key, $client_secret)
